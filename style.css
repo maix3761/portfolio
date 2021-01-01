@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #FAF8F2;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+/*-------------HEADER-------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+    background-color: #FAF8F2;
+    left: 0;
+}
+
+li {
+    color: #252222;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+/* unvisited link */
+li a:link {
+    color: black;
+}
+
+/* visited link */
+li a:visited {
+    color: black;
+}
+
+/* mouse over link */
+li a:hover {
+    color: black;
+}
+
+/* selected link */
+li a:active {
+    color: black;
+}
+
+li a:hover:not(.active) {
+    color: #AA937E;
+}
+
+.headerlogo a:hover:not(.active) {
+    color: #AA937E;
+}
+
+.headerlogo {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-self: flex-start;
+    color: black;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.headerlogo a {
+    color: black;
+    text-decoration: none;
+}
+
+.underline {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    height: 2px;
+    width: 44%;
+    background: black;
+    position: absolute;
+    left: calc(39% - 10%);
+    bottom: 0.8vw;
+}
+
+/*--------------HEADERMOBIL----------------*/
+
+.headerlistemobil {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+#burgerfane {
+    background-color: #fadac9;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+/*---------links??------------*/
+.links {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#headerliste
