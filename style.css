@@ -22,6 +22,17 @@ main {
     margin-right: 10vw;
 }
 
+#svane {
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /*-------------HEADER-------------------*/
 
@@ -36,8 +47,9 @@ ul {
     justify-content: flex-end;
     align-items: center;
     z-index: 2;
-    background-color: #FAF8F2;
+/*    background-color: #FAF8F2;*/
     left: 0;
+
 }
 
 li {
@@ -96,6 +108,10 @@ li a:hover:not(.active) {
     text-decoration: none;
 }
 
+.headerlogo a:hover:not(.active) {
+    color: black;
+}
+
 .underline {
     color: black;
     position: relative;
@@ -135,4 +151,88 @@ li a:hover:not(.active) {
     display: none;
 }
 
-/*---------links??------------*/
+/*-------------------FOOTER----------------------*/
+
+/*-------------------MAIN---------------------*/
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+h1 {
+    font-family: 'Old Standard TT', serif;
+    color: #000000;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000000;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+/*---------------MEDIAQ-PHONE------------------*/
+
+@media (max-width: 700px) {
+
+    .headerlistemobil {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #FAF8F2;
+    }
+
+    .headerlogo {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #burgerknap {
+        display: inline-block;
+        font-size: 2rem;
+        position: absolute;
+        right: 1rem;
+    }
+
+    ul {
+        display: block;
+    }
+
+    h1 {
+        font-family: 'Old Standard TT', serif;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-family: 'Libre Franklin', sans-serif;
+        color: #000000;
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-family: 'Libre Franklin', sans-serif;
+        color: #000000;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-family: 'Libre Franklin', sans-serif;
+        color: #000000;
+        font-size: 1rem;
+    }
