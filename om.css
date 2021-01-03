@@ -7,30 +7,11 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
-    width: 100%;
-}
-
 body {
     height: 100%;
     overflow-x: hidden;
     background-color: #FAF8F2;
-}
 
-main {
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-#svane {
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -155,9 +136,7 @@ li a:hover:not(.active) {
     display: none;
 }
 
-
-
-/*-------------------MAIN-FORSIDE---------------------*/
+/*----------------indhold-------------------*/
 
 section {
     max-width: 1200px;
@@ -257,7 +236,4 @@ footer p {
         display: none;
     }
 
-    #svane {
-        margin-top: 2rem;
-    }
 }
