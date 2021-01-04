@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 html {
     height: 100%;
     scroll-behavior: smooth;
@@ -138,11 +142,12 @@ li a:hover:not(.active) {
 
 /*----------------indhold-------------------*/
 
+/*
 section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 25px;
-}
+}*/
 
 
 h1 {
@@ -234,6 +239,33 @@ footer p {
 
     .headerliste {
         display: none;
+    }
+
+    /* ------------sektion om (#omsek) ------------*/
+
+
+    .om_mig {
+        column-gap: 50px;
+    }
+
+}
+
+
+
+
+
+/*---------------MEDIAQ-WEB----------------*/
+
+@media (min-width: 700px) {
+
+    /* ------------sektion om (#omsek) ------------*/
+
+
+    .om_mig {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5vw;
+        margin-top: 4vw;
     }
 
 }
