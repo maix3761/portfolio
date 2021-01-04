@@ -109,7 +109,7 @@ li a:hover:not(.active) {
 
 .underline::after {
     content: '';
-    height: 2px;
+    height: 1px;
     width: 44%;
     background: black;
     position: absolute;
@@ -250,6 +250,22 @@ footer p {
 
     .tema2 {
         margin-top: 20vw;
+    }
+
+    .streg {
+        color: black;
+        position: relative;
+        display: inline-block;
+    }
+/*slet måske*/
+    .streg::after {
+        content: '';
+        height: 1px;
+        width: 44%;
+        background: black;
+        position: absolute;
+        left: calc(39% - 10%);
+        bottom: 0.8vw;
     }
 
     .tema3 {

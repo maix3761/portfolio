@@ -114,7 +114,7 @@ li a:hover:not(.active) {
 
 .underline::after {
     content: '';
-    height: 2px;
+    height: 1px;
     width: 44%;
     background: black;
     position: absolute;

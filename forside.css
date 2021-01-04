@@ -31,7 +31,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 9vw;
+    /*    margin-top: 9vw;*/
 }
 
 
@@ -124,7 +124,7 @@ li a:hover:not(.active) {
 
 .underline::after {
     content: '';
-    height: 2px;
+    height: 1px;
     width: 44%;
     background: black;
     position: absolute;
@@ -258,6 +258,17 @@ footer p {
     }
 
     #svane {
-        margin-top: 2rem;
+        margin-top: 12vw;
+    }
+}
+
+
+/*--------------MEDIAQ WEB-----------------*/
+@media (min-width: 700px) {
+
+
+
+    #svane {
+        margin-top: 6vw;
     }
 }
