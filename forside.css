@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 html {
@@ -266,9 +267,7 @@ footer p {
 /*--------------MEDIAQ WEB-----------------*/
 @media (min-width: 700px) {
 
-
-
     #svane {
-        margin-top: 6vw;
+        margin-top: 0vw;
     }
 }
