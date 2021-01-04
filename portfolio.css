@@ -14,7 +14,11 @@ body {
 
 }
 
-
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
+}
 
 /*-------------HEADER-------------------*/
 /*
@@ -34,9 +38,9 @@ ul {
     justify-content: flex-end;
     align-items: center;
     z-index: 2;
-    /*    background-color: #FAF8F2;*/
+    background-color: #FAF8F2;
     left: 0;
-    margin-top: 1rem;
+
 
 }
 
@@ -149,6 +153,7 @@ h1 {
     font-family: 'Old Standard TT', serif;
     color: #000000;
     font-size: 3rem;
+    margin-top: 16vw;
 }
 
 h2 {
@@ -160,7 +165,7 @@ h2 {
 h3 {
     font-family: 'Libre Franklin', sans-serif;
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 p {
@@ -236,4 +241,31 @@ footer p {
         display: none;
     }
 
+}
+
+
+/*---------------MEDIAQ-WEB----------------*/
+
+@media (min-width: 700px) {
+
+    .tema2 {
+        margin-top: 20vw;
+    }
+
+    .tema3 {
+        margin-top: 20vw;
+    }
+
+    .tema4 {
+        margin-top: 20vw;
+    }
+
+    .tema5 {
+        margin-top: 20vw;
+    }
+
+    h3 {
+        transform: rotate(-90deg);
+        transform-origin: 0 0;
+    }
 }
