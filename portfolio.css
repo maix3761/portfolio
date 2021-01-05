@@ -269,6 +269,48 @@ footer p {
         margin-top: 8vw;
     }
 
+    /*    afstand på tingene i sektion --> t3 */
+    .t3 {
+        margin-top: 12vw;
+    }
+
+    .t3 h2 {
+        margin-top: 3vw;
+    }
+
+    .t3 img {
+        margin-top: 8vw;
+    }
+
+    /*    afstand på tingene i sektion --> t4 */
+    .t4 {
+        margin-top: 12vw;
+    }
+
+    .t4 h2 {
+        margin-top: 3vw;
+    }
+
+    .t4 img {
+        margin-top: 8vw;
+    }
+
+    /*    afstand på tingene i sektion --> t5 */
+
+    .t5 {
+        margin-top: 12vw;
+    }
+
+    .t5 h2 {
+        margin-top: 3vw;
+    }
+
+    .t5 img {
+        margin-top: 8vw;
+    }
+
+
+
     .tema h4 {
         margin-top: 8vw;
     }
