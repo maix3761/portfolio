@@ -230,7 +230,7 @@ footer p {
     h1 {
         font-family: 'Old Standard TT', serif;
         color: #000000;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -332,6 +332,12 @@ footer p {
 /*---------------MEDIAQ-WEB----------------*/
 
 @media (min-width: 700px) {
+
+    h1 {
+        font-family: 'Old Standard TT', serif;
+        color: #000000;
+        font-size: 4rem;
+    }
 
     .tema2 {
         margin-top: 20vw;
