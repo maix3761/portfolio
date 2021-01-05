@@ -35,7 +35,26 @@ main {
     /*    margin-top: 9vw;*/
 }
 
+#port_knap {
+    position: absolute;
+    top: 23.3vw;
+    left: 73.8vw;
+    cursor: pointer;
+    transform: rotate(+0.2deg);
+    transform-origin: 0 0;
+}
 
+#port_knap h1 a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*
+#port_knap h2 {
+    font-size: 1rem;
+}
+*/
 
 /*-------------HEADER-------------------*/
 .headerliste {
@@ -54,7 +73,7 @@ ul {
     justify-content: flex-end;
     align-items: center;
     z-index: 2;
-/*    background-color: #FAF8F2;*/
+    /*    background-color: #FAF8F2;*/
     left: 0;
 
 }
