@@ -35,20 +35,6 @@ main {
     /*    margin-top: 9vw;*/
 }
 
-#port_knap {
-    position: absolute;
-    top: 23.3vw;
-    left: 73.8vw;
-    cursor: pointer;
-    transform: rotate(+0.2deg);
-    transform-origin: 0 0;
-}
-
-#port_knap h1 a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: #000000;
-}
 
 /*
 #port_knap h2 {
@@ -287,5 +273,33 @@ footer p {
 
     #svane {
         margin-top: 0vw;
+    }
+
+
+}
+
+
+/*--------------MEDIAQ KNAP-----------------*/
+@media (min-width: 1200px) {
+    #port_knap {
+        position: absolute;
+        top: 24.2vw;
+        left: 73.8vw;
+        cursor: pointer;
+        transform: rotate(+0.3deg);
+        transform-origin: 0 0;
+
+    }
+
+    #port_knap h1 a {
+        font-size: 3rem;
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+@media (max-width: 1200px) {
+    #port_knap {
+        display: none;
     }
 }
