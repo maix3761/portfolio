@@ -311,6 +311,7 @@ footer p {
         transform: translateY(0);
     }
 
+/*
     .img_container:before {
         content: '';
         position: absolute;
@@ -324,6 +325,7 @@ footer p {
         transition: 0.5s;
         opacity: 0;
     }
+*/
 
     /*    text*/
     .m_text {

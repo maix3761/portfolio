@@ -270,7 +270,7 @@ footer p {
         height: 100vh;
         background-size: cover;
         margin-top: 12vw;
-        background-position: 50% 50%;
+        background-position: 40% 60%;
         position: fixed;
     }
 }
@@ -311,7 +311,7 @@ footer p {
     }
 
     #port_knap h1 a {
-        font-size: 3rem;
+        font-size: 2rem;
         text-decoration: none;
         color: black;
     }
@@ -325,7 +325,7 @@ footer p {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     #port_knap {
         display: none;
     }
