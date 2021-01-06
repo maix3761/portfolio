@@ -405,7 +405,7 @@ footer p {
         margin-top: 4vw;
     }
 
-    .tema h4 {
+    .t2 .tema h4 {
         margin-top: 4.5vw;
     }
 
@@ -439,7 +439,7 @@ footer p {
         margin-top: 4vw;
     }
 
-    .tema h4 {
+    .t3 .tema h4 {
         margin-top: 4.5vw;
     }
 
@@ -473,8 +473,8 @@ footer p {
         margin-top: 4vw;
     }
 
-    .tema h4 {
-        margin-top: 4.5vw;
+    .t4 .tema h4 {
+        margin-top: 8vw;
     }
 
     .tema p {
@@ -507,8 +507,8 @@ footer p {
         margin-top: 4vw;
     }
 
-    .tema h4 {
-        margin-top: 4.5vw;
+    .t5 .tema h4 {
+        margin-top: 8vw;
     }
 
     .tema p {
@@ -518,4 +518,6 @@ footer p {
     .data p {
         margin-top: 1vw;
     }
+
+
 }

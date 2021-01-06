@@ -283,7 +283,7 @@ footer p {
 @media (min-width: 1200px) {
     #port_knap {
         position: absolute;
-        top: 24.2vw;
+        top: 23.3vw;
         left: 73.8vw;
         cursor: pointer;
         transform: rotate(+0.3deg);
@@ -294,7 +294,15 @@ footer p {
     #port_knap h1 a {
         font-size: 3rem;
         text-decoration: none;
-        color: #000000;
+        color: black;
+    }
+
+    #port_knap h3 {
+        font-size: 0.7rem;
+        transform: rotate(-91.7deg);
+        transform-origin: 0 0;
+        letter-spacing: 3px;
+        cursor: default;
     }
 }
 
