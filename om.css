@@ -255,6 +255,11 @@ footer p {
         margin-top: 16vw;
     }
 
+    .m_text {
+        display: none;
+    }
+
+
 }
 
 
@@ -325,5 +330,7 @@ footer p {
         font-size: 0.9rem;
     }
 
-
+    h1 {
+        font-size: 3rem;
+    }
 }
