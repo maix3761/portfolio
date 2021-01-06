@@ -164,11 +164,13 @@ li a:hover:not(.active) {
 
 /*-------------------MAIN-FORSIDE---------------------*/
 
+/*
 section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 25px;
 }
+*/
 
 
 h1 {
@@ -262,8 +264,14 @@ footer p {
         display: none;
     }
 
-    #svane {
+    #forside {
+        background-image: url(billederport/svanetre.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
         margin-top: 12vw;
+        background-position: 50% 50%;
+        position: fixed;
     }
 }
 
@@ -271,11 +279,22 @@ footer p {
 /*--------------MEDIAQ WEB-----------------*/
 @media (min-width: 700px) {
 
+    /*
     #svane {
         margin-top: 0vw;
     }
+*/
 
-
+    #forside {
+        background-image: url(billederport/svanetre.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        margin-top: 12vw;
+        /*        background-position: 50% 50%;*/
+        position: fixed;
+        margin-top: 0vw;
+    }
 }
 
 
