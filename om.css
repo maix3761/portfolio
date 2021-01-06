@@ -24,6 +24,23 @@ main {
     margin-bottom: 8vw;
 }
 
+.knap {
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 7px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
 
 /*-------------HEADER-------------------*/
 /*
@@ -259,6 +276,9 @@ footer p {
         display: none;
     }
 
+    .knap {
+        padding: 10px;
+    }
 
 }
 
@@ -311,7 +331,7 @@ footer p {
         transform: translateY(0);
     }
 
-/*
+    /*
     .img_container:before {
         content: '';
         position: absolute;
@@ -337,20 +357,11 @@ footer p {
         font-size: 3rem;
     }
 
-/*
+    /*
     h2 {
         font-size: 1.5rem;
     }
 */
 
-    .knap {
-        font-family: 'Libre Franklin', sans-serif;
-        padding: 0.7vw;
-        border-radius: 30px;
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        display: inline;
-        cursor: pointer;
-    }
+
 }

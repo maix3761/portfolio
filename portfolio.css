@@ -348,11 +348,13 @@ footer p {
         margin-top: 20vw;
     }
 
+    /*
     .streg {
         color: black;
         position: relative;
         display: inline-block;
     }
+*/
 
     /*
     slet måske
@@ -531,10 +533,6 @@ footer p {
 */
         position: relative;
         transition: 0.2s ease-out;
-        /*        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);*/
-        /*        slet måske box-shadow - det giver en underligt kant*/
-        /*        padding: 10px;*/
-        /*        background-color: white;*/
         cursor: pointer;
 
     }
@@ -552,7 +550,7 @@ footer p {
         transform: translateY(0);
     }
 
-/*
+    /*
     .img_container:before {
         content: '';
         position: absolute;
