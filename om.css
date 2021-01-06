@@ -38,7 +38,9 @@ main {
 
 }
 
-
+.text_container a {
+    text-decoration: none;
+}
 
 
 
