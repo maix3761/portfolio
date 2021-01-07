@@ -25,7 +25,14 @@ img {
     width: 100%;
 }
 
+.beskrivelse_container a {
+    text-decoration: none;
+    color: black;
+}
 
+.beskrivelse_container a p {
+    font-size: 1rem;
+}
 
 /*-------------HEADER-------------------*/
 /*
@@ -541,14 +548,16 @@ footer p {
         transform: translateY(10px);
     }
 
+    /*
     .img_container:hover:before {
         opacity: 1;
     }
 
-    .img_container:hover: .mig_text {
+    .img_container:hover: {
         opacity: 1;
         transform: translateY(0);
     }
+*/
 
     /*
     .img_container:before {
