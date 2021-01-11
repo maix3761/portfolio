@@ -42,7 +42,10 @@ main {
     text-decoration: none;
 }
 
-
+.mig_text p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+}
 
 /*-------------HEADER-------------------*/
 /*
@@ -331,7 +334,7 @@ footer p {
         opacity: 1;
     }
 
-    .img_container:hover: .mig_text {
+    .img_container:hover {
         opacity: 1;
         transform: translateY(0);
     }
