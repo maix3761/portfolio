@@ -5,7 +5,6 @@
 
 html {
     height: 100%;
-    /*    scroll-behavior: smooth;*/
 }
 
 img {
@@ -32,15 +31,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*    margin-top: 9vw;*/
+
 }
 
-
-/*
-#port_knap h2 {
-    font-size: 1rem;
-}
-*/
 
 /*-------------HEADER-------------------*/
 .headerliste {
@@ -59,7 +52,6 @@ ul {
     justify-content: flex-end;
     align-items: center;
     z-index: 2;
-    /*    background-color: #FAF8F2;*/
     left: 0;
 
 }
@@ -163,14 +155,6 @@ li a:hover:not(.active) {
 
 
 /*-------------------MAIN-FORSIDE---------------------*/
-
-/*
-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 25px;
-}
-*/
 
 
 h1 {
@@ -279,11 +263,6 @@ footer p {
 /*--------------MEDIAQ WEB-----------------*/
 @media (min-width: 700px) {
 
-    /*
-    #svane {
-        margin-top: 0vw;
-    }
-*/
 
     #forside {
         background-image: url(billederport/svanetre.jpg);

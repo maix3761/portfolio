@@ -152,15 +152,6 @@ li a:hover:not(.active) {
 
 /*----------------indhold-------------------*/
 
-/*
-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 25px;
-}
-*/
-
-
 h1 {
     font-family: 'Old Standard TT', serif;
     color: #000000;
@@ -511,14 +502,9 @@ footer p {
     /* hover på billede */
 
     .img_container {
-        /*
-        width: 560px;
-        height: 600px;
-*/
         position: relative;
         transition: 0.2s ease-out;
         cursor: pointer;
-
     }
 
     .img_container:hover {
